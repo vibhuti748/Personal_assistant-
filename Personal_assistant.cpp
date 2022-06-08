@@ -138,7 +138,7 @@ int main()
              res=g+text;
 
 
-             a.typing( "searching in google");
+             a.typing( "Searching on Google .....");
              cout<<"\n\n";
 
 
@@ -155,7 +155,7 @@ int main()
                string n = "https://www.youtube.com/";
 
 
-             a.typing( "Opening youtube in chrome browser");
+             a.typing( "Opening Youtube in Chrome Browser .....");
              cout<<"\n\n";
 
 
@@ -230,7 +230,7 @@ int main()
              res1=e+text;
 
              system("cls");
-             a.typing( "Searching on browser for song .....");
+             a.typing( "Searching in browser for song .....");
              cout<<"\n\n";
 
 
@@ -256,7 +256,7 @@ int main()
         }
          else if(strcmp(ch, "time") == 0 || strcmp(ch, "date") == 0)
         {
-             a.typing( "the time and date is on top of the application");
+             a.typing( "The time and date is on top of the application");
              cout<<"\n\n";
 
         }
