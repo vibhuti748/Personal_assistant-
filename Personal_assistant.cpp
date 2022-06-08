@@ -202,7 +202,7 @@ int main()
         {
 
 
-             a.typing( "Playing \"Rimjhim\" .....");
+             a.typing( "Playing Rimjhim .....");
              cout<<"\n\n";
 
             ShellExecute(NULL,"open","D:\Rimjhim Gire Sawan (Male) - Manzil (1977) 128 Kbps.mp3",NULL,NULL,SW_SHOWNORMAL);
@@ -212,7 +212,7 @@ int main()
         {
 
 
-             a.typing( "Playing \"Maahi ve\" .....");
+             a.typing( "Playing Maahi ve .....");
              cout<<"\n\n";
 
             ShellExecute(NULL,"open","D:\Maahi Ve Highway 128 Kbps.mp3",NULL,NULL,SW_SHOWNORMAL);
