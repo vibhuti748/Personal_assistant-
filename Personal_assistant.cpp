@@ -104,8 +104,8 @@ int main()
             gets(ch);
 
 
-            STARTUPINFO startInfo = {};
-            PROCESS_INFORMATION processInfo = {};
+            //STARTUPINFO startInfo = {};
+            //PROCESS_INFORMATION processInfo = {};
 
 
 
