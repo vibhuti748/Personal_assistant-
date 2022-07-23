@@ -196,7 +196,9 @@ int main()
              a.typing( "Opening Notepad .....");
              cout<<"\n\n";
 
-            CreateProcess(TEXT("C:\\Windows\\notepad.exe"),NULL, NULL,NULL,FALSE,NULL,NULL, NULL, &startInfo, &processInfo);
+            //CreateProcess(TEXT("C:\\Windows\\notepad.exe"),NULL, NULL,NULL,FALSE,NULL,NULL, NULL, &startInfo, &processInfo);
+            ShellExecute(NULL,"open","c:\\Windows\\notepad.exe",NULL,NULL,SW_SHOWNORMAL);
+
         }
          else if(strcmp(ch, "play rimjhim")==0)
         {
